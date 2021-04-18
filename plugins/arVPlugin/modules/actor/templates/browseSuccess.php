@@ -53,7 +53,7 @@
 
         <?php echo get_partial('search/aggregation', array(
           'id' => '#facet-maintainingrepository',
-          'label' => "Entail/Vínculo",
+          'label' => __('Maintained by'),
           'name' => 'repository',
           'aggs' => $aggs,
           'filters' => $search->filters)) ?>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="messages" date="2020-09-30T17:10:54Z" product-name="messages">
+    <header/>
+    <body>
+
+<trans-unit id="312386841084261c610413fa4de8b7505f469407">
+  <source>Repository</source>
+  <target>Entail/ Vínculo</target>
+  <note>https://github.com/artefactual/atom/blob/master/apps/qubit/modules/search/templates/_advancedSearch.php</note>
+</trans-unit>
+
+<trans-unit id="0e8881271ff69b83f18ee1284fadbbaa3351dd18">
+  <source>Extent and medium</source>
+  <target>Archival reference</target>
+  <note>https://github.com/artefactual/atom/blob/master/apps/qubit/modules/search/templates/_advancedSearch.php</note>
+</trans-unit>
+
+<trans-unit id="ff0041634809ff3c6e0ce164139cd538f87a1198">
+  <source>Maintained by</source>
+  <target>Entail/ Vínculo</target>
+  <note>https://github.com/artefactual/atom/blob/master/apps/qubit/modules/actor/templates/browseSuccess.php</note>
+</trans-unit>
+
+    </body>
+  </file>
+</xliff>
+
