@@ -54,6 +54,12 @@
   <note>https://github.com/artefactual/atom/blob/master/apps/qubit/modules/repository/templates/_holdings.php</note>
 </trans-unit>
 
+<trans-unit id="0d83fd488d449ec8ef6ad5f4da7801e1aa505153">
+  <source>Browse %1% holdings</source>
+  <target>Browse %1% documents</target>
+  <note>https://github.com/artefactual/atom/blob/master/apps/qubit/modules/repository/templates/_holdingsList.php</note>
+</trans-unit>
+
 <trans-unit id="ad092b8d511a393f3b20845cbd99a66c962f1e85">
   <source>Description identifier</source>
   <target>Digital identifier</target>
