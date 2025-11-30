@@ -26,10 +26,10 @@
 	  <ul id="header-nav" class="nav nav-pills">
 
         	<li><?php echo link_to(__('Home'), '/') ?></li>
-		<li><?php echo link_to(__('About'), array('module' => 'staticpage', 'slug' => 'about')) ?></li>
-		<li><?php echo link_to(__('Information'), array('module' => 'staticpage', 'slug' => 'information')) ?></li>
-         	<li><?php echo link_to(__('Site notice'), array('module' => 'staticpage', 'slug' => 'site-notice')) ?></li> 
- 				
+		<li><?php echo link_to(__('Corrections'), array('module' => 'staticpage', 'slug' => 'corrections')) ?></li>
+		<li><?php echo link_to(__('Suggestions'), array('module' => 'staticpage', 'slug' => 'suggestions')) ?></li>
+         	<li><?php echo link_to(__('Site notice'), array('module' => 'staticpage', 'slug' => 'site-notice')) ?></li>
+
 		<?php if (!$sf_user->isAuthenticated()): ?>
 		  <li><?php echo link_to(__('Log in'), array('module' => 'user', 'action' => 'login')) ?></li>
 		<?php endif; ?>
