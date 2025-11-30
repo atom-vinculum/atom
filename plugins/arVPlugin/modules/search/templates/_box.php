@@ -26,7 +26,9 @@
               'browseSubjects' => '/plugins/arVPlugin/images/icons-large/icon-subjects.png',
               'browseFunctions' => '/plugins/arVPlugin/images/icons-large/icon-functions.png',
               'browsePlaces' => '/plugins/arVPlugin/images/icons-large/icon-places.png',
-              'browseDigitalObjects' => '/plugins/arVPlugin/images/icons-large/icon-media.png') ?>
+              'browseDigitalObjects' => '/plugins/arVPlugin/images/icons-large/icon-media.png',
+              'browseUsersManual' => '/plugins/arVPlugin/images/icons-large/icon-new.png',
+              'browseGlobaltableofentails' => '/plugins/arVPlugin/images/icons-large/icon-archive.png') ?>
             <?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID) ?>
             <?php if ($browseMenu->hasChildren()): ?>
               <?php foreach ($browseMenu->getChildren() as $item): ?>
